@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Product Search</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Product Search</h1>
+
+    <div class="form-row">
+      <input id="keyword" type="text" placeholder="Enter search keyword" autocomplete="off" />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="status" aria-live="polite"></div>
+    <section id="results" class="results"></section>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
