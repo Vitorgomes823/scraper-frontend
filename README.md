@@ -63,5 +63,3 @@ Requests are made to `/api/scrape?keyword=yourTerm`, proxied via the `vite.confi
 To change the API address or port, edit the proxy settings in `vite.config.js`.
 
 ---
-
-If you want, I can help you create the README for the backend as well. Would you like that?
